@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "appIgreja",
+    "slug": "appIgreja",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icp.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.appIgreja"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2b9bed30-b463-4b28-a3ce-18de5a390371"
+      }
+    }
+  }
+}
